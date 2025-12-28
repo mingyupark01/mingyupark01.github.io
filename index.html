@@ -1,1 +1,300 @@
-<h1>테스트중 </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mingyu Park | SNU</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #333;
+            --accent-color: #007bff;
+            --bg-color: #ffffff;
+            --text-color: #424242;
+            --date-color: #828282;
+            --link-color: #007bff;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        /* Left Side: Profile */
+        .profile-section {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid #eee;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .name-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .intro-text {
+            font-size: 0.95rem;
+            color: #444;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .contact-info a {
+            color: var(--text-color);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+        
+        .contact-info a:hover {
+            color: var(--accent-color);
+        }
+
+        .contact-info i {
+            width: 20px;
+            color: #666;
+            margin-right: 5px;
+        }
+
+        /* Right Side: Main Content */
+        .main-content {
+            flex: 2;
+            min-width: 300px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        h2:first-child { margin-top: 0; }
+
+        /* News Section */
+        .news-item {
+            display: flex;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+            align-items: baseline;
+        }
+        
+        .news-date {
+            min-width: 90px;
+            font-weight: bold;
+            color: var(--date-color);
+            font-size: 0.9rem;
+        }
+
+        /* Publication/Education Items */
+        .item-block {
+            margin-bottom: 25px;
+        }
+        
+        .item-title {
+            font-weight: 700;
+            color: var(--primary-color);
+            display: block;
+            font-size: 1.05rem;
+        }
+        
+        .item-subtitle {
+            font-size: 0.95rem;
+            color: #555;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .item-meta {
+            font-style: italic;
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .item-desc {
+            font-size: 0.9rem;
+            color: #444;
+            margin-top: 5px;
+            padding-left: 15px;
+        }
+
+        .item-desc li {
+            margin-bottom: 4px;
+        }
+
+        /* Links */
+        a.text-link {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        a.text-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <aside class="profile-section">
+            <img src="https://via.placeholder.com/200?text=MP" alt="Mingyu Park" class="profile-img">
+            
+            <div class="name-title">Mingyu Park</div>
+            <div class="subtitle">B.S. Candidate @ SNU<br>Chemical & Biological Eng.</div>
+            
+            <div class="intro-text">
+                <p>
+                    I am a senior undergraduate student at Seoul National University.
+                </p>
+                <p>
+                    My research interests lie in the <strong>design and controlled synthesis of porous materials</strong> for heterogeneous catalysis. I am particularly interested in engineering active sites and transport environments for gas conversion and separations.
+                </p>
+            </div>
+
+            <div class="contact-info">
+                <a href="mailto:mgpark1116@snu.ac.kr"><i class="fas fa-envelope"></i> mgpark1116@snu.ac.kr</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Seoul, South Korea</a>
+                <a href="https://github.com/"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#"><i class="fas fa-file-alt"></i> CV</a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            
+            <h2>News</h2>
+            
+            <div class="news-item">
+                <span class="news-date">Oct 2025</span>
+                [cite_start]<div>Awarded the <strong>Minister of Trade, Industry and Energy Award</strong> (MOTIE). [cite: 46]</div>
+            </div>
+            <div class="news-item">
+                <span class="news-date">Oct 2025</span>
+                [cite_start]<div>Received <strong>KIChE President's Award</strong> (2nd Place) at the Environmental Safety Design Competition. [cite: 49]</div>
+            </div>
+            <div class="news-item">
+                <span class="news-date">Aug 2025</span>
+                [cite_start]<div>Presented a poster at the UC Berkeley Undergraduate Research Summer Symposium. [cite: 38]</div>
+            </div>
+            <div class="news-item">
+                <span class="news-date">May 2025</span>
+                [cite_start]<div>Presented a poster at the CeRCaS 2025 Spring Meeting. [cite: 38]</div>
+            </div>
+            <div class="news-item">
+                <span class="news-date">Mar 2025</span>
+                [cite_start]<div>Selected as a Presidential Science Scholar (4-year full tuition). [cite: 42]</div>
+            </div>
+
+            <h2>Education</h2>
+            <div class="item-block">
+                <span class="item-title">Seoul National University (SNU)</span>
+                <span class="item-subtitle">B.S. Candidate, Chemical and Biological Engineering</span>
+                <div class="item-meta">Mar. 2020 – Feb. 2026 (Expected)</div>
+                [cite_start]<div class="item-meta">GPA: 4.20/4.30 (Major GPA: 4.26/4.30) [cite: 12]</div>
+            </div>
+            <div class="item-block">
+                <span class="item-title">University of California, Berkeley</span>
+                <span class="item-subtitle">Exchange Student, Chemical Engineering</span>
+                <div class="item-meta">Spring 2025</div>
+                [cite_start]<div class="item-meta">GPA: 4.00/4.00 (16 units) [cite: 15]</div>
+            </div>
+            <div class="item-block">
+                <span class="item-title">Seoul Science High School</span>
+                <div class="item-meta">Feb. 2020</div>
+                [cite_start]<div class="item-meta">Graduated with Highest Distinction (Rank 1/123) [cite: 18]</div>
+            </div>
+
+            <h2>Research Experience</h2>
+            
+            <div class="item-block">
+                <span class="item-title">Heterogeneous Catalysts Design Lab, SNU</span>
+                <span class="item-subtitle">Undergraduate Researcher (Advisor: Prof. Jong Hun Kang)</span>
+                <div class="item-meta">Sep. [cite_start]2025 – Present [cite: 24]</div>
+                <ul class="item-desc">
+                    <li>Systematically tuning graphene oxide synthesis parameters to build predictive links between synthesis conditions and material properties.</li>
+                    [cite_start]<li>Investigating how specific surface oxygen groups govern gas-evolution behavior during thermal reduction using DSC, XPS, TPR-MS and TGA. [cite: 25, 26]</li>
+                </ul>
+            </div>
+
+            <div class="item-block">
+                <span class="item-title">Katz Group, UC Berkeley</span>
+                <span class="item-subtitle">Undergraduate Researcher (Advisor: Prof. Alexander Katz)</span>
+                <div class="item-meta">Feb. [cite_start]2025 – Aug. 2025 [cite: 27]</div>
+                <ul class="item-desc">
+                    <li>Synthesized TMSCl-silanized Na-FAU zeolites to selectively suppress H₂O adsorption kinetics while preserving CO₂ capacity.</li>
+                    [cite_start]<li>Adapted silanization strategy to HZSM-5 zeolites to inhibit external phosphorus deposition. [cite: 29, 30]</li>
+                </ul>
+            </div>
+
+            <div class="item-block">
+                <span class="item-title">Machine Intelligence & Comp. Chem. Lab, SNU</span>
+                <span class="item-subtitle">Student-Directed Research (Advisor: Prof. Yousung Jung)</span>
+                <div class="item-meta">Mar. [cite_start]2024 – Jan. 2025 [cite: 33]</div>
+                <ul class="item-desc">
+                    <li>Developed a DFT-informed ML framework to predict stereoselectivity in Grubbs olefin metathesis.</li>
+                    [cite_start]<li>Awarded the Grand Prize in the Student Independent Research Awards at SNU. [cite: 34, 35]</li>
+                </ul>
+            </div>
+
+            <h2>Selected Publications</h2>
+            
+            <div class="item-block">
+                <span class="item-title">Monolayer TMSCl Silanization of FAU Zeolites Enables Kinetic Enhancement of CO₂ Adsorption Under Humid Conditions</span>
+                <span class="item-subtitle"><strong>Mingyu Park</strong>, Hwangho Lee, John Tengco, Alexander Katz</span>
+                [cite_start]<div class="item-meta">Manuscript in preparation [cite: 39]</div>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>
