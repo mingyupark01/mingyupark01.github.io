@@ -1,120 +1,77 @@
-cv:
-  name: Mingyu Park
-  label: Incoming Graduate Student
-  email: mgpark1116@snu.ac.kr
-  location: "Seoul, Republic of Korea"
-  image: ""
-  summary: Incoming Graduate Student interested in heterogeneous catalysis and electocatalysis!
-  social_networks:
-    - network: LinkedIn
-      username: m1ngyupark
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Mingyu Park
+    - name: Email
+      value: mgpark1116@snu.ac.kr
+    - name: Interests
+      value: "Heterogeneous Catalysis, Porous Materials (Zeolites, MOFs), ML-driven Catalyst Design."
+    - name: Languages
+      value: Korean (Native), English (Fluent)
 
-  address:
-    street: 
-    city: Seoul
-    region: 
-    postalCode: 
-    countryCode: Republic of Korea
+- title: Education
+  type: time_table
+  contents:
+    - year: 2020 - 2026
+      title: B.S. Candidate, Chemical and Biological Engineering
+      institution: Seoul National University
+      description:
+        - "GPA: 4.20/4.30 (3.96/4.00); Major GPA: 4.26/4.30 (4.00/4.00)"
+    - year: 2025
+      title: UCEAP Study Abroad Program, Chemical Engineering
+      institution: University of California, Berkeley
+      location: Berkeley, California, US
+      description:
+        - "GPA: 4.00/4.00 (4 major courses, all A+)"
 
-  sections:
-    Education:
-      - institution: Seoul National University
-        location: Seoul, Korea
-        area: B.S. in Chemical and Biological Engineering
-        start_date: 2020
-        end_date: 2026
-        score: ""
-        courses: ""
-        highlights:
-          - "GPA: 4.20/4.30 (3.98/4.00), Major GPA: 4.26/4.30 (4.00/4.00)"
+- title: Research Experience
+  type: time_table
+  contents:
+    - year: 2025 - Present
+      title: "Heterogeneous Catalysts Design Lab, SNU <br>(Advisor: Prof. Jong Hun Kang)"
+      description:
+        - "Optimizing graphene oxide synthesis to correlate surface oxygen groups with gas-evolution behavior."
+    - year: 2025
+      title: "Katz Group, UC Berkeley (Advisor: Prof. Alexander Katz)"
+      location: Berkeley, California, US
+      description:
+        - "Synthesized silanized Na-FAU zeolites for selective H2O adsorption suppression."
+        - "Developed a silanization strategy for HZSM-5 to enable selective interior phosphorus placement."
+    - year: 2024
+      title: "MICC Lab, SNU (Advisor: Prof. Yousung Jung)"
+      description:
+        - "Developed a DFT-informed ML framework to predict stereoselectivity in Grubbs metathesis."
 
-      - institution: University of California, Berkeley
-        location: Berkeley, California, US
-        area: Chemical Engineering
-        studyType: UCEAP Exchange Program
-        start_date: 2025-01
-        end_date: 2025-05
-        highlights:
-          - "GPA: 4.00/4.00"
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      title: Minister of Trade, Industry and Energy Award
+      description:
+        - "Top achievement among 102 Korea-U.S. STEM scholars."
+    - year: 2020 - Present
+      title: Presidential Science Scholarship
+      description:
+        - "Full 4-year tuition and stipend (Top 93 nationwide)."
+    - year: 2025
+      title: Grand Prize, Student Independent Research Awards, SNU
+    - year: 2020, 2021, 2023
+      title: Three-time Gold Medalist, Korea Undergraduate Mathematics Competition
+    - year: 2025
+      title: 2nd Place, KIChE Environmental Safety Design Competition
 
-    Research Experience:
-      - company: Heterogeneous Catalysts Design Lab, SNU
-        position: Undergraduate Researcher
-        location: Seoul, Korea
-        start_date: 2025-09
-        end_date: 
-        summary: aa
-        highlights:
-          - aa
+- title: Teaching
+  type: time_table
+  contents:
+    - year: 2024 - Present
+      title: Academic Tutor at SNU (Gen Chem, Separation Processes)
+      location: Seoul, Korea
 
-      - company: Katz Group, UC Berkeley
-        position: Undergraduate Researcher
-        location: Berkeley, California, US
-        start_date: 2025-01
-        end_date: 2025-08
-        highlights:
-          - Description 1.
-
-      - company: Machine Intelligence and Computational Chemistry Lab, SNU
-        position: Undergraduate Researcher
-        location: Seoul, Korea
-        start_date: 2024-03
-        end_date: 2024-12
-        url: https://micc.snu.ac.kr/
-
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Presidential Science Scholarship
-        authors:
-          - "Korea Student Aid"
-        date: 2020-03
-        awarder: Korea Student Aid Foundation
-        summary: "4-year undergraduate full tuition and stipends ($5,500 x 8); 93 undergraduates selected nationwide."
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-#      - title: Zur Elektrodynamik bewegter Körper
-#        authors:
-#          - Albert Einstein
-#        publisher: Annalen der Physik
-#        releaseDate: 1905-06-30
-#        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-#        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-    Skills:
-      - name: "Modeling & Simulation"
-        icon: fa-solid fa-hashtag
-        keywords: "Aspen Plus, AVEVA Pro/II, Q-Chem"
-
-      - name: "Programming"
-        icon: fa-solid fa-hashtag
-        keywords: "Python, MATLAB, C++"      
-
-    Languages:
-      - name: Korean
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Chemical Engineering
-        icon: fa-solid fa-tag
-        keywords: "Heterogeneous Catalysis, Electrocatalysis, Porous Materials, Recticular Chemistry"
-
+- title: Miscellaneous
+  type: time_table
+  contents:
+    - year: 2022 - 2024
+      title: Military Service - Air Intelligence Operator, ROK Air Force
+    - year: 2024 - Present
+      title: Leadership - Director of External Affairs, SNU Tomorrow's Engineers (College Honor Society)

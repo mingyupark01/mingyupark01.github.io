@@ -6,8 +6,7 @@ title: Mingyu Park # the website title (if blank, full name will be used instead
 first_name: Mingyu
 middle_name: 
 last_name: Park
-contact_note: >
-  Please reach out to me at mgpark1116@snu.ac.kr !
+contact_note: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Academic homepage for Mingyu Park.
 footer_text: >

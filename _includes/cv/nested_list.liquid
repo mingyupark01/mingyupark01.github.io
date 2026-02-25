@@ -1,0 +1,10 @@
+{% for content in entry.contents %}
+  {{ content.title }}
+
+  {% if content.items %}
+    {% for subitem in content.items %}
+      {{ subitem }}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+

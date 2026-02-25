@@ -1,0 +1,35 @@
+{% for content in entry.contents %}
+  {% if content.icon %}
+  {% else %}
+  {% endif %}
+
+  {% assign i = 1 %}
+  {% for item in content.items %}
+    {% assign i = i | plus: 1 %}
+  {% endfor %}
+
+  {{ content.category }}
+
+  {% for item in content.items %}
+    {{ item.name }}
+
+    {% if item.level %}
+      {{ item.level }}
+    {% endif %}
+    {% if item.school %}
+      {{ item.school }}
+    {% endif %}
+    {% if item.time %}
+      {{ item.time }}
+    {% endif %}
+
+    {% if item.link %}
+      {% if item.linkname %}
+        {{ item.linkname }}
+      {% else %}
+        DOC
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+

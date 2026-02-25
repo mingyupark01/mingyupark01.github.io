@@ -7,5 +7,5 @@ nav_order: 2
 cv_pdf: /assets/pdf/cv.pdf # you can also use external links here
 description: 
 toc:
-  sidebar: false
+  sidebar: left
 ---

@@ -1,0 +1,33 @@
+<div class="card-text font-weight-light">
+  <table class="table table-cv table-sm table-borderless mb-0">
+    <tbody>
+      {% for content in entry.contents %}
+        <tr>
+          <td class="p-1 pr-3 font-weight-bold align-top" style="white-space: nowrap;">
+            {{ content.name }}
+          </td>
+          <td class="p-1 pl-1">
+            {% if content.value %}
+              {{ content.value }}
+            {% endif %}
+
+            {% if content.links %}
+              {% for item in content.links %}
+                {% if item.link %}
+                  <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+                    {% if item.name %}
+                      {{ item.name }}
+                    {% else %}
+                      doc
+                    {% endif %}
+                  </a>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+

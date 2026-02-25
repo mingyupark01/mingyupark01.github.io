@@ -1,0 +1,91 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for content in entry.contents %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+          {% capture year %}
+            {% if content.year %}{{ content.year }}{% endif %}
+          {% endcapture %}
+
+          <table class="table-cv">
+            <tbody>
+              <tr>
+                <td>
+                  {% if year != '' %}
+                    <span
+                      class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
+                      style="display: inline-block; min-width: 110px; text-align: center;"
+                    >
+                      {{ year }}
+                    </span>
+                  {% endif %}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+          {% if content.title %}
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              {{ content.title }}
+            </h6>
+          {% endif %}
+
+          {% if content.institution %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {{ content.institution }}
+            </h6>
+          {% endif %}
+
+          {% if content.maindescription %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">
+              {{ content.maindescription | markdownify | remove: '<p>' | remove: '</p>' }}
+            </h6>
+          {% endif %}
+
+          {% if content.description or content.items %}
+            <ul class="items">
+              {% if content.description %}
+                {% for item in content.description %}
+                  <li>
+                    <span class="item">
+                      {{ item | markdownify | remove: '<p>' | remove: '</p>' }}
+                    </span>
+                  </li>
+                {% endfor %}
+              {% endif %}
+
+              {% if content.items %}
+                {% for item in content.items %}
+                  <li>
+                    <span class="item">
+                      {{ item | markdownify | remove: '<p>' | remove: '</p>' }}
+                    </span>
+                  </li>
+                {% endfor %}
+              {% endif %}
+            </ul>
+          {% endif %}
+
+          {% if content.linkitems %}
+            <p class="ml-1 ml-md-4">
+              {% for item in content.linkitems %}
+                {% if item.link %}
+                  <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+                    {% if item.linkname %}
+                      {{ item.linkname }}
+                    {% else %}
+                      doc
+                    {% endif %}
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </p>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
