@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -362,16 +369,20 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-joined-the-heterogeneous-catalysts-design-lab-at-snu-as-an-undergraduate-researcher",
+          title: 'I joined the Heterogeneous Catalysts Design Lab at SNU as an undergraduate researcher!...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-received-the-kiche-president-s-award-at-the-environmental-safety-design-competition",
+          title: 'I received the KIChE President’s Award at the Environmental Safety Design Competition!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-was-awarded-the-minister-of-trade-industry-and-energy-award-for-the-most-outstanding-achievement-among-korea-u-s-stem-exchange-students",
+          title: 'I was awarded the Minister of Trade, Industry and Energy Award for the...',
+          description: "",
+          section: "News",},{id: "news-completed-the-chuncheon-marathon-with-a-time-of-3-41-59",
+          title: 'Completed the Chuncheon Marathon with a time of 3:41:59!',
+          description: "",
+          section: "News",},{id: "news-launched-my-personal-website",
+          title: 'Launched my personal website!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
