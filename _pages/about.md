@@ -25,6 +25,12 @@ latest_posts:
 
 Hi, I’m **Mingyu Park**, a senior undergraduate in Chemical and Biological Engineering at Seoul National University.
 
-My research interests focus on **porous materials** and **heterogeneous catalysis**, particularly for gas conversion and separations.
+My research interests include:
+
+- **Catalysis:** Exploring both heterogeneous and electrocatalytic pathways.
+- **Porous Materials:** Design & controlled synthesis for catalytic applications.
+- **Transport Engineering:** Tuning active sites and environments for gas conversion/separation.
+
+Outside of research, I enjoy traveling, photography, and long-distance running. I am an avid runner, and my current goal is to complete a sub-3 hour marathon!
 
 For more details, please see my **[CV](/cv/)**.

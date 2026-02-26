@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-10-20 12:00:00+0900
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I was awarded the Minister of Trade, Industry and Energy Award for the most outstanding achievement among Korea-U.S. STEM exchange students!

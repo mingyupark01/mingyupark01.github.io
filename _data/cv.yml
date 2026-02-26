@@ -65,8 +65,12 @@
   type: time_table
   contents:
     - year: 2024 - Present
-      title: Academic Tutor at SNU (Gen Chem, Separation Processes)
+      title: Academic Tutor at SNU
       location: Seoul, Korea
+      description:
+        - "General Chemistry (Fall 2024, Fall 2025)"
+        - "Separation Processes (Fall 2025)"
+        - "Organic Chemistry 1 (Spring 2026)"
 
 - title: Miscellaneous
   type: time_table
@@ -74,4 +78,6 @@
     - year: 2022 - 2024
       title: Military Service - Air Intelligence Operator, ROK Air Force
     - year: 2024 - Present
-      title: Leadership - Director of External Affairs, SNU Tomorrow's Engineers (College Honor Society)
+      title: "STEM (SNU Tomorrow's Engineers Membership) – Director of External Affairs"
+      description:
+        - "Honor Society for the College of Engineering."

@@ -4,10 +4,16 @@
 
 @use "variables" as v;
 
+// Slightly larger base font (about, CV, news, etc.) and more readable line spacing
+html {
+  font-size: 1.0625rem; /* 17px when browser default is 16px */
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  line-height: 1.7;
 
   h1,
   h2,

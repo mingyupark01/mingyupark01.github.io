@@ -1,4 +1,15 @@
 /*****************************
+ * CV badge (year) color – use theme color
+ *****************************/
+
+span.badge.danger-color-dark,
+.badge.danger-color-dark {
+  color: var(--global-hover-text-color) !important;
+  background-color: var(--global-theme-color) !important;
+  border-color: var(--global-theme-color) !important;
+}
+
+/*****************************
  * CV shared styles
  *****************************/
 
