@@ -46,6 +46,16 @@ body.sticky-bottom-footer {
   }
 }
 
+// On very small screens the profile container spans the full width,
+// which makes the avatar image too large. Cap the rendered image size.
+@media (max-width: 575px) {
+  .profile {
+    img {
+      max-width: 160px;
+    }
+  }
+}
+
 // Content layout uses Bootstrap's grid system with responsive columns
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes
 // See _layouts/default.liquid and _includes/projects.liquid for examples
