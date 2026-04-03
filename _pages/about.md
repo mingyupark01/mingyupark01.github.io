@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="mailto:mgpark1116@snu.ac.kr">mgpark1116@snu.ac.kr</a>
+subtitle: <a href="mailto:mgpark@mit.edu">mgpark@mit.edu</a>
 
 profile:
   align: right
@@ -23,14 +23,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I’m **Mingyu Park**, a senior undergraduate in Chemical and Biological Engineering at Seoul National University.
+Hi, I’m **Mingyu Park**, a senior undergraduate in Chemical and Biological Engineering at Seoul National University and an incoming PhD student in Chemical Engineering at MIT.
 
-My research interests include:
+My research interests include **catalysis and porous materials**, especially the design of heterogeneous and electrocatalytic systems for catalytic applications.
 
-- **Catalysis:** Exploring both heterogeneous and electrocatalytic pathways.
-- **Porous Materials:** Design & controlled synthesis for catalytic applications.
-- **Transport Engineering:** Tuning active sites and environments for gas conversion/separation.
-
-Outside of research, I enjoy traveling, photography, and long-distance running. I am an avid runner, and my current goal is to complete a sub-3 hour marathon!
+Outside of research, I enjoy traveling, photography, and long-distance running. I am currently training to complete a sub-3 hour marathon.
 
 For more details, please see my **[CV](/cv/)**.
